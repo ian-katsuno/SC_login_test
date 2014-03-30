@@ -9,6 +9,7 @@ var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var passport = require('passport');
+var passport-sc = require('passport-soundcloud');
 
 var app = express();
 
